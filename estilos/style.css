@@ -9,7 +9,7 @@ html body {
     background-color: black;
 }
 body {
-    background: url('../imagens/fundo-madeira.jpg') no-repeat center center;
+    background: url('../imagens/fundo-tinta.png') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -25,18 +25,20 @@ section#telefone {
 
     height: 500px;
     width: 500px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-samsung.png') no-repeat;
     background-size: contain;
     display: block;
     background-position: center;
 }
 iframe#tela {
     position: relative;
-    top: 64.5px;
-    left: 143.5px;
+    top: 8.5px;
+    left: 140px;
 
-    width: 212.5px;
-    height: 375.5px;
+    width: 218px;
+    height: 481.5px;
+
+    border-radius: 17px;
 }
 section#redes-sociais {
     text-align: right;

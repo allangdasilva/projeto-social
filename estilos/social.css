@@ -12,14 +12,15 @@ img {
 }
 a {
     display: block;
-    background-color: darkred;
+    background-color: #0D1017;
     color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
-    margin: 0px;
+    margin: -10px;
 }
 a:hover {
-    background-color: red;
+    background-color: #43A75B;
+    transition: background-color 0.5s;
 }
